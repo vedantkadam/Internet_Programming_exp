@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #F5F0BB;
+    padding: 0 5rem;
+}
+.nav-link{
+    font-weight:800;
+    font-style: bold;
+}
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav img{
+    flex: 2;
+    height: 180px;
+    width: 70px;
+}
+nav h1{
+    flex: 10;
+    padding: 2rem;
+    font-size: 2.5rem;
+    background: #C4DFAA;
+    color: #dffdf0;
+}
+.quote{
+    background: #90C8AC;
+    border: 2px solid #42855B;
+    font-size: 18px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.about{
+    background: #70cea6;
+    border: 2px solid #fff;
+    font-size: 18px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.navtabs{
+    display: flex;
+}
+.navtabs ul{
+    flex: 2;
+    list-style-type: none;
+}
+.navtabs ul li{
+    background: #90C8AC;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+.navtabs ul li a{
+    text-decoration: none;
+    color: #222;
+    font-size: 1.3rem;
+}
+.navtabs > div{
+    flex: 10;
+}
+.navtabs .tab-content > h2{
+    background: #fff;
+    text-align: center;
+    font-size: 36px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.card-group{
+    display: flex;
+}
+.card{
+    background: #90C8AC;
+    border: 2px solid #222;
+    font-size: 18px;
+    padding: 1rem;
+    margin: 1rem;
+    flex: 1;
+}
+.footer1{
+    background: #76BA99;
+    text-align: left;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+b{
+   margin-left: 80px;
+   /* text-align: center; */
+}
